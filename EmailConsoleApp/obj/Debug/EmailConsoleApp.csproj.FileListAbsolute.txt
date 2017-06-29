@@ -1,0 +1,6 @@
+C:\hsn\fvc\Dev\Integration\Tools\Websites\EmailConsoleApp\EmailConsoleApp\bin\Debug\EmailConsoleApp.exe.config
+C:\hsn\fvc\Dev\Integration\Tools\Websites\EmailConsoleApp\EmailConsoleApp\bin\Debug\EmailConsoleApp.exe
+C:\hsn\fvc\Dev\Integration\Tools\Websites\EmailConsoleApp\EmailConsoleApp\bin\Debug\EmailConsoleApp.pdb
+C:\hsn\fvc\Dev\Integration\Tools\Websites\EmailConsoleApp\EmailConsoleApp\obj\Debug\EmailConsoleApp.exe
+C:\hsn\fvc\Dev\Integration\Tools\Websites\EmailConsoleApp\EmailConsoleApp\obj\Debug\EmailConsoleApp.pdb
+C:\hsn\fvc\Dev\Integration\Tools\Websites\EmailConsoleApp\EmailConsoleApp\obj\Debug\EmailConsoleApp.csprojResolveAssemblyReference.cache
