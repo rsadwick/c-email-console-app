@@ -2,26 +2,15 @@
 
 namespace EmailConsoleApp {
     internal class Program {
-        private static void Main(string[] args) {
-            MainAsync().GetAwaiter().GetResult();
-            /* var emailMessage = new EmailSend {
-                 Body = "<h1>Hi I am cool async<h1>",
-                 From = "noreply@domain.net",
-                 Subject = "Test Email from async",
-                 To = "ryan.sadwick@3ee.com"
-
-             };
-             emailer.Send(emailMessage);*/
-        }
-
-        private static async Task MainAsync() {
+        private static async Task Main() {
             var emailer = new Email();
             var emailMessage = new EmailSend {
-                Body = "<h1>Hi I am cool async<h1>",
-                From = "noreply@domain.net",
+                Body = "<h1>Hi I am cool async email<h1>",
+                From = "ryan.sadwick@hsn.net",
                 Subject = "Test Email from async",
-                To = "ryan.sadwick@3ee.com"
+                To = "ryan.sadwick@hsn.net"
             };
+            
             await emailer.SendAsync(emailMessage);
         }
     }
