@@ -6,9 +6,9 @@ namespace EmailConsoleApp {
             var emailer = new Email();
             var emailMessage = new EmailSend {
                 Body = "<h1>Hi I am cool async email<h1>",
-                From = "ryan.sadwick@hsn.net",
+                From = "ryan.sadwick@3ee.com",
                 Subject = "Test Email from async",
-                To = "ryan.sadwick@hsn.net"
+                To = "some.email.accountk@3ee.com"
             };
             
             await emailer.SendAsync(emailMessage);
